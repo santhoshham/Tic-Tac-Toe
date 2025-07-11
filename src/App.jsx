@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import Board from "./components/board";
+import "./App.css";
 
-export default function Board(){
-
+export default function App() {
   return (
-    <>
-      <h1> hi sandy </h1>
-    </>
-  )
+    <div className="app">
+      <h1>Tic Tac Toe</h1>
+      <Board />
+    </div>
+  );
 }
-
